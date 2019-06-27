@@ -35,6 +35,20 @@ piezza9=PhotoImage(file="piezza.gif")
 piezza10=PhotoImage(file="piezza.gif")
 piezza11=PhotoImage(file="piezza.gif")
 
+piezza12=PhotoImage(file="piezza2.gif")
+piezza13=PhotoImage(file="piezza2.gif")
+piezza14=PhotoImage(file="piezza2.gif")
+piezza15=PhotoImage(file="piezza2.gif")
+piezza16=PhotoImage(file="piezza2.gif")
+piezza17=PhotoImage(file="piezza2.gif")
+piezza18=PhotoImage(file="piezza2.gif")
+piezza19=PhotoImage(file="piezza2.gif")
+piezza20=PhotoImage(file="piezza2.gif")
+piezza21=PhotoImage(file="piezza2.gif")
+piezza22=PhotoImage(file="piezza2.gif")
+piezza23=PhotoImage(file="piezza2.gif")
+
+
 canvas.create_image(10,6, anchor=NW, image=piezza)
 canvas.create_image(10,166, anchor=NW, image=piezza1)
 canvas.create_image(10,332, anchor=NW, image=piezza2)
@@ -47,6 +61,20 @@ canvas.create_image(170,6, anchor=NW, image=piezza8)
 canvas.create_image(170,166, anchor=NW, image=piezza9)
 canvas.create_image(170,332, anchor=NW, image=piezza10)
 canvas.create_image(170,492, anchor=NW, image=piezza11)
+
+
+canvas.create_image(410,6, anchor=NW, image=piezza12)
+canvas.create_image(410,166, anchor=NW, image=piezza13)
+canvas.create_image(410,332, anchor=NW, image=piezza14)
+canvas.create_image(410,492, anchor=NW, image=piezza15)
+canvas.create_image(490,86, anchor=NW, image=piezza16)
+canvas.create_image(490,246, anchor=NW, image=piezza17)
+canvas.create_image(490,406, anchor=NW, image=piezza18)
+canvas.create_image(490,566, anchor=NW, image=piezza19)
+canvas.create_image(570,6, anchor=NW, image=piezza20)
+canvas.create_image(570,166, anchor=NW, image=piezza21)
+canvas.create_image(570,332, anchor=NW, image=piezza22)
+canvas.create_image(570,492, anchor=NW, image=piezza23)
 
 x,y=25,15;
 def move(event):
